@@ -25,17 +25,18 @@ if(!(lowerCase || upperCase || numbers || special)) {
   return;
 }
 var password = "";
+var charArray = [0];
 
 if (lowerCase) {
-  
-}
-if (upperCase === true) {
 
 }
-if (numbers === true) {
+if (upperCase) {
 
 }
-if (special=== true) {
+if (numbers) {
+
+}
+if (special) {
 
 }
 
@@ -55,6 +56,6 @@ function writePassword() {
   passwordText.value = password;
 
 }
-function generatePassword(); {
+
 
 generateBtn.addEventListener("click", writePassword);
